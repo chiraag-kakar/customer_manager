@@ -10,6 +10,6 @@ public class Home {
 
     @GetMapping
     public String home() {
-        return "Application is works!!! "+new Date();
+        return "Hey Congratulations, You made it!!! "+new Date()+ "| Hope you will have a great experience using this API created using SpringBoot --- Chiraag Kakar :)";
     }
 }
